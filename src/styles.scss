@@ -1,0 +1,34 @@
+/* You can add global styles to this file, and also import other style files */
+@import '../node_modules/bootstrap/dist/css/bootstrap.css';
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+
+:root{
+  /*fonts*/
+  --font-color-classic:#00A300;
+  --font-size-small:1.3em;
+  --font-size-medium:1.4em;
+  --font-size-large:1.5em;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  color: var(--font-color-classic);
+  font-family: 'Gruppo', cursive;
+  font-size: var(--font-size-medium);
+  font-weight: bolder;
+
+  a{
+    padding: .5vw;
+    text-decoration: none;
+    color: #f5f6fa;
+    font-size: var(--font-size-medium);
+  }
+  a:hover{
+    color: #f5f6fa;
+    font-size: var(--font-size-medium);
+    border: solid 5px #f5f6fa;
+  }
+
+}
